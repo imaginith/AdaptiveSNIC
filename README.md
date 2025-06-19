@@ -6,14 +6,14 @@ Python implementation of the adaptive seed (centroid) placement part in [Adaptiv
 ## Example Segmentations with ASNIC and SNIC 
 
 Images in the **Left** are the segmentations produced by **ASNIC** and the images in the **right** are the segmentations produced by **SNIC** with similar number of segments. 
-![](https://github.com/janithsenanayaka/Adaptive-SNIC/blob/main/results/Comparison%20Puffin.jpg)
-![](https://github.com/janithsenanayaka/Adaptive-SNIC/blob/main/results/Comparison%20Plane.jpg)
+![](results/Comparison%20Puffin.jpg)
+![](results/Comparison%20Plane.jpg)
 
 Following figure shows the corresponding seeds produced by `Adaptive-SNIC` algorithm. It is clear that seeds are placed in adaptive manner which essentially capture the relevant features.
 In `SNIC` algorithm the seeds are placed in a regular grid which does not take the information distribution in the image to account.
-![](https://github.com/janithsenanayaka/Adaptive-SNIC/blob/main/results/Seed%20Placement.jpg)
+![](results/Seed%20Placement.jpg)
  
-See [results](https://github.com/janithsenanayaka/Adaptive-SNIC/tree/main/results) folder for example segmentations.
+See [results](results) folder for example segmentations.
 The images used here are taken from [Flicker](https://www.flickr.com) and all of them are in public domain. References to the used images are given at the bottom.
 
 ## Usage
